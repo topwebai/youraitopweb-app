@@ -1,0 +1,27 @@
+TOP WEB DIRECTORIES - CRAZY DOMAINS INSTALLATION
+
+1. UPLOAD FILES:
+   - Upload all files from this folder to your hosting directory
+
+2. INSTALL DEPENDENCIES:
+   SSH into your server and run:
+   npm install
+
+3. CONFIGURE ENVIRONMENT:
+   - Copy .env.example to .env
+   - Edit .env with your database and API details
+
+4. START SERVER:
+   node server.js
+
+5. FOR 24/7 OPERATION (if SSH available):
+   npm install -g pm2
+   pm2 start server.js --name "top-web-directories"
+   pm2 save
+   pm2 startup
+
+6. POINT YOUR DOMAIN:
+   Configure DNS to point to your server
+
+For support: stefan.neale@topwebdirectories.com.au
+Phone: 08 7480 2495

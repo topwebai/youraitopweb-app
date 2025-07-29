@@ -1,0 +1,25 @@
+{
+  "name": "top-web-directories",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "connect-pg-simple": "^9.0.1",
+    "openai": "^4.28.0",
+    "nodemailer": "^6.9.8",
+    "drizzle-orm": "^0.30.0",
+    "zod": "^3.22.4",
+    "openid-client": "^5.6.1",
+    "memoizee": "^0.4.15",
+    "tsx": "^4.7.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
